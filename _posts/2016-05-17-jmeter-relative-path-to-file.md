@@ -10,6 +10,7 @@ To give the path to a file, relative to the .jmx file, use the following command
 
 <!-- end the list -->
 Ex.
+
 <!-- language: lang-none -->
     ${__BeanShell(import org.apache.jmeter.services.FileServer; FileServer.getFileServer().getBaseDir();)}${__BeanShell(File.separator,)}MyFile.txt
 
