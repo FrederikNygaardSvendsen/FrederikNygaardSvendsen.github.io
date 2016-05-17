@@ -6,6 +6,7 @@ categories: EF Enitity Framework update database update-database
 It is possible to use the migration.exe file to fire a update-database statement against your builded/compiled project. Launch it through powershell. Example command:
 
 -------
+<div>
 # These variables should be set via the Octopus web portal:
 #
 #   ConnectionString         - The .Net connection string for the DB
@@ -22,5 +23,6 @@ cd $contentPath
 write-host "Working Dir: "$(get-location)
 
 # Run the migration utility
-& ".\migrate.exe" Core.dll /startUpConfigurationFile="../Web.config" /connectionString="Server=serverPath;Database=databaseName;User Id=user;Password=password;" /connectionProviderName="System.Data.SqlClient" /verbose | Write-Host
--------
+& ".\migrate.exe" Core.dll /startUpConfigurationFile="../Web.config" /connectionString="Server=server;User Id=userId;Password=password;" /connectionProviderName="System.Data.SqlClient" /verbose | Write-Host
+
+</div>
