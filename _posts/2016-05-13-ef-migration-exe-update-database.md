@@ -1,13 +1,8 @@
 ---
 layout: post
-title: EF migration.exe 'update-database'
+title: Entity Framework & migration.exe to 'update-database'
 tags:
-- EF
-- Enitity
-- Framework
-- update
-- database
-- update-database
+- Enitity Framework
 ---
 It is possible to use the migration.exe file to fire a update-database statement against your builded/compiled project. Launch it through powershell. Example command:
 

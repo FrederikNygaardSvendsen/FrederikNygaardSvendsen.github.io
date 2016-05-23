@@ -3,9 +3,6 @@ layout: post
 title: JMeter, relative path to file
 tags:
 - JMeter
-- relative
-- path
-- file
 ---
 To give the path to a file, relative to the .jmx file, use the following command:
 
