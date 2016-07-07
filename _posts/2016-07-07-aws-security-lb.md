@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AWS load balaincing security
+title: AWS LoadBalancer security
 tags:
 - AWS
 - LoadBalancer
