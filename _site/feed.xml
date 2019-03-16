@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-16T21:59:57+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FNS Knowledge Center</title><subtitle>Personal knowledge center for notes etc.</subtitle><entry><title type="html">git commands</title><link href="http://localhost:4000/git/2018/06/21/git-commands.html" rel="alternate" type="text/html" title="git commands" /><published>2018-06-21T08:14:34+02:00</published><updated>2018-06-21T08:14:34+02:00</updated><id>http://localhost:4000/git/2018/06/21/git-commands</id><content type="html" xml:base="http://localhost:4000/git/2018/06/21/git-commands.html">&lt;h1 id=&quot;delete-untracked-files&quot;&gt;Delete untracked files&lt;/h1&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clean -f -d # remove untracked
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;modify-latest-commit-message&quot;&gt;Modify latest commit message&lt;/h1&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git commit --amend
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">Delete untracked files</summary></entry><entry><title type="html">git branching</title><link href="http://localhost:4000/git/2018/06/20/git-branching.html" rel="alternate" type="text/html" title="git branching" /><published>2018-06-20T14:09:34+02:00</published><updated>2018-06-20T14:09:34+02:00</updated><id>http://localhost:4000/git/2018/06/20/git-branching</id><content type="html" xml:base="http://localhost:4000/git/2018/06/20/git-branching.html">&lt;h1 id=&quot;create-branch&quot;&gt;Create branch&lt;/h1&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git branch someBranch
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;switch-branch&quot;&gt;switch branch:&lt;/h1&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git checkout someBranch
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;show-branches&quot;&gt;show branches:&lt;/h1&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git branch
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;delete-branch&quot;&gt;delete branch:&lt;/h1&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git branch -d branchToDelete
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;merge-other-branch-into-current-branch&quot;&gt;Merge other branch into current branch&lt;/h1&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git merge branchToMergeIntoCurrentBranch
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">Create branch git branch someBranch</summary></entry><entry><title type="html">Entity Framework errormessage debug</title><link href="http://localhost:4000/entity-framework/2018/05/18/git-entity-framework-debug.html" rel="alternate" type="text/html" title="Entity Framework errormessage debug" /><published>2018-05-18T15:34:34+02:00</published><updated>2018-05-18T15:34:34+02:00</updated><id>http://localhost:4000/entity-framework/2018/05/18/git-entity-framework-debug</id><content type="html" xml:base="http://localhost:4000/entity-framework/2018/05/18/git-entity-framework-debug.html">&lt;p&gt;Try putting the SQL statements directly into the MySQL Workbench.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. Type &quot;dotnet ef migrations script&quot; in your commandprompt.
+2. Copy the generated SQL script.
+3. Paste it into your Workbench.
+4. Check where the errors occur.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;When I got errors using EF core 2 with MySQL this helped me understand the problem better and helped solve the problem. (for me it was a typing error). You can at least use this method to determine if it is an error in the migrations or in your SQL statements.&lt;/p&gt;</content><author><name></name></author><summary type="html">Try putting the SQL statements directly into the MySQL Workbench.</summary></entry><entry><title type="html">DNS lookup on unix</title><link href="http://localhost:4000/dns/network/2018/05/16/dns.html" rel="alternate" type="text/html" title="DNS lookup on unix" /><published>2018-05-16T11:20:34+02:00</published><updated>2018-05-16T11:20:34+02:00</updated><id>http://localhost:4000/dns/network/2018/05/16/dns</id><content type="html" xml:base="http://localhost:4000/dns/network/2018/05/16/dns.html">&lt;p&gt;To lookup dns server on unix:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cat /etc/resolv.conf
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;From this point you can try to resolve a hostname direcly on the dns like so:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;host hq.novicell.dk 10.0.0.6
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">To lookup dns server on unix:</summary></entry><entry><title type="html">Entity Framework tutorials</title><link href="http://localhost:4000/entity-framework/2018/04/20/entity-framework.html" rel="alternate" type="text/html" title="Entity Framework tutorials" /><published>2018-04-20T12:05:34+02:00</published><updated>2018-04-20T12:05:34+02:00</updated><id>http://localhost:4000/entity-framework/2018/04/20/entity-framework</id><content type="html" xml:base="http://localhost:4000/entity-framework/2018/04/20/entity-framework.html">&lt;h1 id=&quot;useful-tutorial-etc-for-entityframework-core&quot;&gt;Useful tutorial etc. for EntityFramework Core&lt;/h1&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;http://www.entityframeworktutorial.net/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">Useful tutorial etc. for EntityFramework Core http://www.entityframeworktutorial.net/</summary></entry><entry><title type="html">scp file to server</title><link href="http://localhost:4000/scp/2018/04/19/secure-copy.html" rel="alternate" type="text/html" title="scp file to server" /><published>2018-04-19T15:25:34+02:00</published><updated>2018-04-19T15:25:34+02:00</updated><id>http://localhost:4000/scp/2018/04/19/secure-copy</id><content type="html" xml:base="http://localhost:4000/scp/2018/04/19/secure-copy.html">&lt;h1 id=&quot;scp-from-local-into-server&quot;&gt;scp from local into server&lt;/h1&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;scp -i &quot;./aws-nc-dev.pem&quot; FILE ec2-user@ec2-34-252-92-114.eu-west-1.compute.amazonaws.com:~/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">scp from local into server scp -i &quot;./aws-nc-dev.pem&quot; FILE ec2-user@ec2-34-252-92-114.eu-west-1.compute.amazonaws.com:~/</summary></entry><entry><title type="html">Issues connecting to VPN</title><link href="http://localhost:4000/vpn/2018/04/19/vpn-connection-issues.html" rel="alternate" type="text/html" title="Issues connecting to VPN" /><published>2018-04-19T00:49:34+02:00</published><updated>2018-04-19T00:49:34+02:00</updated><id>http://localhost:4000/vpn/2018/04/19/vpn-connection-issues</id><content type="html" xml:base="http://localhost:4000/vpn/2018/04/19/vpn-connection-issues.html">&lt;p&gt;I had issues connecting to VPN, and found out that an old “Secret” file, with an old password, was still lying around and was the one being used. Found solution on forum:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;You seem to have a collection of secrets files from multiple connections that haven’t been cleaned up when the corresponding connection is stopped. Issue the following to clean things up :&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  sudo rm -f /etc/ipsec.d/nm-l2tp-ipsec-*.secrets
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;To debug the connection to vpn, use:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;journalctl --follow
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">I had issues connecting to VPN, and found out that an old “Secret” file, with an old password, was still lying around and was the one being used. Found solution on forum:</summary></entry><entry><title type="html">docker container usage</title><link href="http://localhost:4000/docker/2018/04/19/docker-container-usage.html" rel="alternate" type="text/html" title="docker container usage" /><published>2018-04-19T00:49:34+02:00</published><updated>2018-04-19T00:49:34+02:00</updated><id>http://localhost:4000/docker/2018/04/19/docker-container-usage</id><content type="html" xml:base="http://localhost:4000/docker/2018/04/19/docker-container-usage.html">&lt;h1 id=&quot;executing-bash-on-a-running-docker-container&quot;&gt;Executing bash on a running docker container&lt;/h1&gt;
+&lt;p&gt;To access the /bin/bash of a running docker container, run the following command:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo docker exec -i -t &amp;lt;ContainerID&amp;gt; /bin/bash
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;analysing-memory&quot;&gt;Analysing memory&lt;/h1&gt;
+&lt;p&gt;When analyzing memory usage inside the linux container, the following file may be interesting:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cat /sys/fs/cgroup/memory/memory.stat
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;other&quot;&gt;Other&lt;/h1&gt;
+&lt;p&gt;To see usage (cpu/ram) of the docker contianer, docker stats can be helpful.&lt;/p&gt;</content><author><name></name></author><summary type="html">Executing bash on a running docker container To access the /bin/bash of a running docker container, run the following command:</summary></entry><entry><title type="html">docker cleanup</title><link href="http://localhost:4000/docker/2018/04/19/docker-cleanup.html" rel="alternate" type="text/html" title="docker cleanup" /><published>2018-04-19T00:49:34+02:00</published><updated>2018-04-19T00:49:34+02:00</updated><id>http://localhost:4000/docker/2018/04/19/docker-cleanup</id><content type="html" xml:base="http://localhost:4000/docker/2018/04/19/docker-cleanup.html">&lt;h1 id=&quot;cleaning-up-in-docker&quot;&gt;Cleaning up in docker&lt;/h1&gt;
+&lt;p&gt;when wanting to cleanup untagged docker images, this command can be run&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker rmi $(docker images | grep &quot;^&amp;lt;none&amp;gt;&quot; | awk &quot;{print $3}&quot;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">Cleaning up in docker when wanting to cleanup untagged docker images, this command can be run</summary></entry></feed>

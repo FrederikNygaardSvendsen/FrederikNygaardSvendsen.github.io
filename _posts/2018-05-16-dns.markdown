@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "DNS lookup on unix"
+date:   2018-05-16 10:20:34 +0100
+categories: dns network
+---
+To lookup dns server on unix:
+
+    cat /etc/resolv.conf
+
+From this point you can try to resolve a hostname direcly on the dns like so:
+
+    host hq.novicell.dk 10.0.0.6
+    
