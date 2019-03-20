@@ -16,3 +16,5 @@ The NGINX configuration itself can be found here:
 ```
   /etc/nginx/nginx.conf
 ```
+
+In my case, restarting the NGINX service fixed the problem
