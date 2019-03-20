@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Issues connecting to VPN"
+title:  "NGINX Error"
 date:   2019-03-20 23:49:34 +0100
 categories: nginx network
 ---
