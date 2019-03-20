@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Issues connecting to VPN"
-date:   2018-04-18 23:49:34 +0100
+date:   2019-01-07 23:49:34 +0100
 categories: vpn
 ---
 I had issues connecting to VPN, and found out that an old "Secret" file, with an old password, was still lying around and was the one being used. Found solution on forum:
