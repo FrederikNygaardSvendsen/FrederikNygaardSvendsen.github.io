@@ -18,3 +18,9 @@ The NGINX configuration itself can be found here:
 ```
 
 In my case, restarting the NGINX service fixed the problem
+
+If problems with nginx arises, use the following command to verify nginx configuration
+
+```
+  nginx -t -c /etc/nginx/nginx.conf
+```
